@@ -10,6 +10,10 @@ class CartItem extends Model
 {
     use HasFactory;
 
+    protected $casts = [
+        'quantity' => 'integer',
+    ];
+
     protected $guarded = [];
 
     public function product(): BelongsTo
