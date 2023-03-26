@@ -14,7 +14,7 @@ class ShopController extends Controller
     public function index()
     {
         return Inertia::render('Shop', [
-            'products' => Product::paginate(config('custom.page_size')),
+            'products' => Product::paginate(config('constants.page_size')),
         ]);
     }
 

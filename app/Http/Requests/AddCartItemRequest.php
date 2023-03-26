@@ -16,7 +16,7 @@ class AddCartItemRequest extends FormRequest
                 $item = Cart::getItem($this->request->get('product_id'));
 
                 if ($item) {
-                    $maxQuantity = config('custom.max_product_quantity');
+                    $maxQuantity = config('constants.max_product_quantity');
                     if ($item['quantity'] + $value > $maxQuantity) {
                         $fail("The max $attribute for any product is $maxQuantity.");
                     }
