@@ -26,7 +26,7 @@ export default function Cart({}) {
             (sum, item) => sum + item.price * item.quantity,
             0
         );
-    }, [cart]);
+    }, [cart, itemTotals]);
 
     const qst = subTotal * tax.qst;
     const gst = subTotal * tax.gst;
