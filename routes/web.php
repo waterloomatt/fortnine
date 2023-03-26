@@ -21,5 +21,3 @@ Route::post('/clear', [ShopController::class, 'clear'])->name('clear');
 Route::post('/update', [ShopController::class, 'update'])->name('update');
 Route::post('/remove', [ShopController::class, 'remove'])->name('remove');
 Route::get('/cart', [ShopController::class, 'cart'])->name('cart');
-
-require __DIR__ . '/auth.php';
