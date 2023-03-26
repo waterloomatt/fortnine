@@ -38,7 +38,9 @@ class ShopController extends Controller
 
         Cart::add($validated['product_id'], $validated['quantity']);
 
-        return back()->withInput();
+        return redirect()
+            ->route('product', ['product' => $validated['product_id']])
+            ->withInput();
     }
 
     public function remove(RemoveCartItemRequest $request)

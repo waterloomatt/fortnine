@@ -32,11 +32,11 @@ jobs:
       - name: npm run build
         run: npm run build
 
-#      - name: PHPUnit Tests
-#        uses: php-actions/phpunit@master
-#        with:
-#          bootstrap: vendor/autoload.php
-#          configuration: phpunit.xml
+      - name: PHPUnit Tests
+        uses: php-actions/phpunit@master
+        with:
+          bootstrap: vendor/autoload.php
+          configuration: phpunit.xml
 
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@master

@@ -17,7 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [ShopController::class, 'index'])->name('shop');
 Route::get('/product/{product}', [ShopController::class, 'view'])->name('product');
 Route::post('/cart', [ShopController::class, 'add'])->name('add');
-Route::post('/clear', [ShopController::class, 'clear'])->name('clear');
 Route::post('/update', [ShopController::class, 'update'])->name('update');
 Route::post('/remove', [ShopController::class, 'remove'])->name('remove');
 Route::get('/cart', [ShopController::class, 'cart'])->name('cart');
