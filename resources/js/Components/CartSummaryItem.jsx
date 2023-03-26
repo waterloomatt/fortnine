@@ -1,12 +1,18 @@
 import { useState } from "react";
 import { formatter } from "@/Helpers/Helper";
+import { range } from "lodash";
 import Select from "react-select";
+import { usePage } from "@inertiajs/react";
 
 export default function CartSummaryItem({
     item,
     quantityHandler,
     removeHandler,
 }) {
+    const {
+        constants: { max_product_quantity },
+    } = usePage().props;
+
     const [quantity, setQuantity] = useState(item.quantity);
 
     const handleQuantityChange = (e) => {
@@ -18,7 +24,8 @@ export default function CartSummaryItem({
         removeHandler(item.id);
     };
 
-    const options = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((quantity) => {
+    const rangeMax = +max_product_quantity + 1;
+    const options = range(1, rangeMax).map((quantity) => {
         return { value: quantity, label: quantity };
     });
 
