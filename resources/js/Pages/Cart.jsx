@@ -1,6 +1,6 @@
 import { router, Link, usePage } from "@inertiajs/react";
 import { isMobile } from "react-device-detect";
-import GuestLayout from "@/Layouts/GuestLayout";
+import ShopLayout from "@/Layouts/ShopLayout";
 import { formatter } from "@/Helpers/Helper";
 import CartSummaryItem from "@/Components/CartSummaryItem";
 import { useMemo, useState } from "react";
@@ -70,7 +70,7 @@ export default function Cart({}) {
     if (cart.length === 0) {
         if (isMobile) {
             return (
-                <GuestLayout>
+                <ShopLayout>
                     <div className="pt-6">
                         Your cart is empty. Go back{" "}
                         {
@@ -79,24 +79,24 @@ export default function Cart({}) {
                             </Link>
                         }
                     </div>
-                </GuestLayout>
+                </ShopLayout>
             );
         }
 
         return (
-            <GuestLayout>
+            <ShopLayout>
                 Your cart is empty. Go back{" "}
                 {
                     <Link href={route("shop")} className="underline">
                         to the shop.
                     </Link>
                 }
-            </GuestLayout>
+            </ShopLayout>
         );
     }
 
     return (
-        <GuestLayout>
+        <ShopLayout>
             <div className="py-6">
                 <h2>Shopping Cart</h2>
 
@@ -152,6 +152,6 @@ export default function Cart({}) {
                     </div>
                 </div>
             </div>
-        </GuestLayout>
+        </ShopLayout>
     );
 }

@@ -1,5 +1,5 @@
 import { isMobile } from "react-device-detect";
-import GuestLayout from "@/Layouts/GuestLayout";
+import ShopLayout from "@/Layouts/ShopLayout";
 import ProductCard from "@/Components/ProductCard";
 import CartCount from "@/Components/CartCount";
 import Pagination from "@/Pages/Partials/Pagination";
@@ -7,7 +7,7 @@ import PaginationMobile from "@/Pages/Partials/PaginationMobile";
 
 export default function Shop({ products }) {
     return (
-        <GuestLayout>
+        <ShopLayout>
             <div className="mx-auto max-w-2xl lg:py-6 px-4 lg:max-w-7xl lg:px-8">
                 <span className="invisible lg:visible flow-root mb-6">
                     <span className="float-right">
@@ -29,6 +29,6 @@ export default function Shop({ products }) {
                     <Pagination links={products.links} />
                 )}
             </div>
-        </GuestLayout>
+        </ShopLayout>
     );
 }

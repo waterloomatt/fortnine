@@ -3,7 +3,7 @@ import { Link } from "@inertiajs/react";
 import { isMobile } from "react-device-detect";
 import CartCount from "@/Components/CartCount";
 
-export default function Guest({ children }) {
+export default function ShopLayout({ children }) {
     if (isMobile) {
         return (
             <div className="min-h-screen mt-16">

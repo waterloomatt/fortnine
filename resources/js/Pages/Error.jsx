@@ -1,4 +1,4 @@
-import GuestLayout from "@/Layouts/GuestLayout";
+import ShopLayout from "@/Layouts/ShopLayout";
 import { Link, usePage } from "@inertiajs/react";
 import React from "react";
 
@@ -40,10 +40,10 @@ export default function Error({}) {
     };
 
     return (
-        <GuestLayout>
+        <ShopLayout>
             <div className="mx-auto max-w-2xl lg:py-6 px-4 lg:max-w-7xl lg:px-8">
                 {renderError(status)}
             </div>
-        </GuestLayout>
+        </ShopLayout>
     );
 }
