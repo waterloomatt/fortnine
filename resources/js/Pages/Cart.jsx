@@ -11,7 +11,7 @@ export default function Cart({}) {
         constants: { tax },
     } = usePage().props;
 
-    const [checkoutText, setCheckoutText] = useState('Checkout');
+    const [checkoutText, setCheckoutText] = useState("Checkout");
 
     const [itemTotals, setItemTotals] = useState(
         cart.map((item) => {
@@ -133,7 +133,9 @@ export default function Cart({}) {
                     <div className="mt-6">
                         <a
                             href="#"
-                            onClick={() => setCheckoutText('Checkout not implemented...')}
+                            onClick={() =>
+                                setCheckoutText("Checkout not implemented...")
+                            }
                             className="flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
                         >
                             {checkoutText}
