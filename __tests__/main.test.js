@@ -55,7 +55,7 @@ it('renders the product details correctly', () => {
     expect(tree).toMatchSnapshot();
 });
 
-it.only('renders the cart correctly', () => {
+it('renders the cart correctly', () => {
     const tree = renderer
         .create(<Cart/>)
         .toJSON();
