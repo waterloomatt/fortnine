@@ -38,6 +38,10 @@ jobs:
           bootstrap: vendor/autoload.php
           configuration: phpunit.xml
 
+      - name: Jest Tests
+        uses: actions/checkout@master
+        run: npm test
+
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@master
         with:
