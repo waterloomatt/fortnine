@@ -730,6 +730,7 @@ exports[`renders the product details correctly 1`] = `
             <div>
               <div>
                 <select
+                  className="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                   defaultValue={
                     {
                       "label": 1,
@@ -809,6 +810,658 @@ exports[`renders the product details correctly 1`] = `
             </p>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders the shop correctly 1`] = `
+<div
+  className="min-h-screen sm:w-full lg:flex flex-col items-center pt-6 bg-gray-100"
+>
+  <div
+    className="invisible lg:visible"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <svg
+        className="w-10 h-10 sm:w-20 sm:h-20"
+        viewBox="0 0 368.000000 512.000000"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="#000000"
+          stroke="none"
+          transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+        >
+          <path
+            d="M228 5097 c-98 -37 -158 -91 -198 -179 -19 -42 -20 -83 -20 -1644 0 -1748 -4 -1624 58 -1709 29 -41 1755 -1550 1771 -1550 8 0 767 657 1485 1285 241 211 284 253 313 305 l33 60 0 1607 0 1606 -33 63 c-38 75 -103 129 -184 154 -72 23 -180 16 -244 -14 -28 -13 -301 -245 -702 -596 -361 -316 -661 -575 -666 -575 -5 0 -305 259 -666 575 -390 341 -676 584 -704 597 -56 28 -186 36 -243 15z m795 -938 l634 -557 6 -233 c10 -325 9 -569 -2 -569 -6 0 -460 393 -793 688 -17 14 -18 6 -18 -154 l0 -170 243 -212 244 -211 7 -322 c3 -177 4 -324 2 -326 -3 -3 -113 90 -245 206 l-241 212 0 -591 c0 -324 -2 -590 -5 -590 -3 0 -16 9 -28 21 -12 11 -121 108 -243 216 l-221 195 -6 436 c-9 579 -9 2507 0 2516 4 4 13 5 19 4 7 -2 298 -253 647 -559z m2307 -925 l0 -1463 -717 -627 c-395 -345 -730 -638 -745 -651 l-26 -25 -326 284 -325 283 -1 409 c0 389 1 408 18 394 9 -8 154 -135 321 -283 272 -240 306 -267 323 -256 10 6 240 206 510 443 l490 431 -3 168 c-2 93 -5 169 -7 169 -2 0 -22 -17 -45 -39 -23 -21 -208 -186 -412 -366 l-370 -328 -6 524 c-3 288 -7 696 -8 906 l-1 381 328 285 c180 156 473 411 651 565 254 221 327 279 338 271 11 -10 13 -265 13 -1475z"
+          />
+          <path
+            d="M2770 3433 c-36 -31 -145 -128 -243 -216 l-178 -160 2 -163 2 -164 38 33 c21 17 130 113 243 212 l205 180 0 168 c1 92 0 167 -2 167 -1 0 -31 -25 -67 -57z"
+          />
+        </g>
+      </svg>
+    </a>
+  </div>
+  <div
+    className="invisible sm:visible lg:invisible mx-0 px-6 py-6 flow-root mx-6 bg-gray-100 fixed z-50 top-0 left-0 right-0"
+  >
+    <div
+      className="flow-left"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <svg
+          className="w-10 h-10 float-left"
+          viewBox="0 0 368.000000 512.000000"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="#000000"
+            stroke="none"
+            transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+          >
+            <path
+              d="M228 5097 c-98 -37 -158 -91 -198 -179 -19 -42 -20 -83 -20 -1644 0 -1748 -4 -1624 58 -1709 29 -41 1755 -1550 1771 -1550 8 0 767 657 1485 1285 241 211 284 253 313 305 l33 60 0 1607 0 1606 -33 63 c-38 75 -103 129 -184 154 -72 23 -180 16 -244 -14 -28 -13 -301 -245 -702 -596 -361 -316 -661 -575 -666 -575 -5 0 -305 259 -666 575 -390 341 -676 584 -704 597 -56 28 -186 36 -243 15z m795 -938 l634 -557 6 -233 c10 -325 9 -569 -2 -569 -6 0 -460 393 -793 688 -17 14 -18 6 -18 -154 l0 -170 243 -212 244 -211 7 -322 c3 -177 4 -324 2 -326 -3 -3 -113 90 -245 206 l-241 212 0 -591 c0 -324 -2 -590 -5 -590 -3 0 -16 9 -28 21 -12 11 -121 108 -243 216 l-221 195 -6 436 c-9 579 -9 2507 0 2516 4 4 13 5 19 4 7 -2 298 -253 647 -559z m2307 -925 l0 -1463 -717 -627 c-395 -345 -730 -638 -745 -651 l-26 -25 -326 284 -325 283 -1 409 c0 389 1 408 18 394 9 -8 154 -135 321 -283 272 -240 306 -267 323 -256 10 6 240 206 510 443 l490 431 -3 168 c-2 93 -5 169 -7 169 -2 0 -22 -17 -45 -39 -23 -21 -208 -186 -412 -366 l-370 -328 -6 524 c-3 288 -7 696 -8 906 l-1 381 328 285 c180 156 473 411 651 565 254 221 327 279 338 271 11 -10 13 -265 13 -1475z"
+            />
+            <path
+              d="M2770 3433 c-36 -31 -145 -128 -243 -216 l-178 -160 2 -163 2 -164 38 33 c21 17 130 113 243 212 l205 180 0 168 c1 92 0 167 -2 167 -1 0 -31 -25 -67 -57z"
+            />
+          </g>
+        </svg>
+      </a>
+    </div>
+    <div
+      className="float-right py-2"
+    >
+      <div>
+        <a
+          className="group flex items-center"
+          href="/cart"
+          onClick={[Function]}
+        >
+          <svg
+            aria-hidden="true"
+            className="h-6 w-6 flex-shrink-0 text-gray-400 group-hover:text-gray-500"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+          <span
+            className="ml-2 text-sm font-medium text-gray-700 group-hover:text-gray-800"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="visible sm:invisible mx-0 px-6 py-6 flow-root mx-6 bg-gray-100 fixed z-50 top-0 left-0 right-0"
+  >
+    <div
+      className="flow-left"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <svg
+          className="w-10 h-10 float-left"
+          viewBox="0 0 368.000000 512.000000"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="#000000"
+            stroke="none"
+            transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+          >
+            <path
+              d="M228 5097 c-98 -37 -158 -91 -198 -179 -19 -42 -20 -83 -20 -1644 0 -1748 -4 -1624 58 -1709 29 -41 1755 -1550 1771 -1550 8 0 767 657 1485 1285 241 211 284 253 313 305 l33 60 0 1607 0 1606 -33 63 c-38 75 -103 129 -184 154 -72 23 -180 16 -244 -14 -28 -13 -301 -245 -702 -596 -361 -316 -661 -575 -666 -575 -5 0 -305 259 -666 575 -390 341 -676 584 -704 597 -56 28 -186 36 -243 15z m795 -938 l634 -557 6 -233 c10 -325 9 -569 -2 -569 -6 0 -460 393 -793 688 -17 14 -18 6 -18 -154 l0 -170 243 -212 244 -211 7 -322 c3 -177 4 -324 2 -326 -3 -3 -113 90 -245 206 l-241 212 0 -591 c0 -324 -2 -590 -5 -590 -3 0 -16 9 -28 21 -12 11 -121 108 -243 216 l-221 195 -6 436 c-9 579 -9 2507 0 2516 4 4 13 5 19 4 7 -2 298 -253 647 -559z m2307 -925 l0 -1463 -717 -627 c-395 -345 -730 -638 -745 -651 l-26 -25 -326 284 -325 283 -1 409 c0 389 1 408 18 394 9 -8 154 -135 321 -283 272 -240 306 -267 323 -256 10 6 240 206 510 443 l490 431 -3 168 c-2 93 -5 169 -7 169 -2 0 -22 -17 -45 -39 -23 -21 -208 -186 -412 -366 l-370 -328 -6 524 c-3 288 -7 696 -8 906 l-1 381 328 285 c180 156 473 411 651 565 254 221 327 279 338 271 11 -10 13 -265 13 -1475z"
+            />
+            <path
+              d="M2770 3433 c-36 -31 -145 -128 -243 -216 l-178 -160 2 -163 2 -164 38 33 c21 17 130 113 243 212 l205 180 0 168 c1 92 0 167 -2 167 -1 0 -31 -25 -67 -57z"
+            />
+          </g>
+        </svg>
+      </a>
+    </div>
+    <div
+      className="float-right py-2"
+    >
+      <div>
+        <a
+          className="group flex items-center"
+          href="/cart"
+          onClick={[Function]}
+        >
+          <svg
+            aria-hidden="true"
+            className="h-6 w-6 flex-shrink-0 text-gray-400 group-hover:text-gray-500"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+          <span
+            className="ml-2 text-sm font-medium text-gray-700 group-hover:text-gray-800"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sm:mx-6 px-6 mt-6 py-6 bg-white md:shadow-md overflow-hidden sm:rounded-lg mb-4 overflow-visible"
+  >
+    <div
+      className="mx-auto max-w-2xl lg:py-6 px-4 lg:max-w-7xl lg:px-8"
+    >
+      <span
+        className="invisible lg:visible flow-root mb-6"
+      >
+        <span
+          className="float-right"
+        >
+          <div>
+            <a
+              className="group flex items-center"
+              href="/cart"
+              onClick={[Function]}
+            >
+              <svg
+                aria-hidden="true"
+                className="h-6 w-6 flex-shrink-0 text-gray-400 group-hover:text-gray-500"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+              <span
+                className="ml-2 text-sm font-medium text-gray-700 group-hover:text-gray-800"
+              />
+            </a>
+          </div>
+        </span>
+      </span>
+      <div
+        className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
+      >
+        <a
+          href="/product/1"
+          onClick={[Function]}
+        >
+          <div
+            className="group"
+          >
+            <div
+              className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8"
+            >
+              <img
+                alt="Robert Kihn"
+                className="h-full w-full object-cover object-center group-hover:opacity-75"
+                src="https://cdn.lorem.space/images/album/.cache/300x300/mdna_madonna.jpg"
+              />
+            </div>
+            <h3
+              className="mt-4 text-sm text-gray-700"
+            >
+              Robert Kihn
+            </h3>
+            <p
+              className="mt-1 text-lg font-medium text-gray-900"
+            >
+              $
+              72.50
+            </p>
+          </div>
+        </a>
+        <a
+          href="/product/2"
+          onClick={[Function]}
+        >
+          <div
+            className="group"
+          >
+            <div
+              className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8"
+            >
+              <img
+                alt="Cleveland Muller"
+                className="h-full w-full object-cover object-center group-hover:opacity-75"
+                src="https://cdn.lorem.space/images/game/.cache/300x300/pes-2018.jpg"
+              />
+            </div>
+            <h3
+              className="mt-4 text-sm text-gray-700"
+            >
+              Cleveland Muller
+            </h3>
+            <p
+              className="mt-1 text-lg font-medium text-gray-900"
+            >
+              $
+              35.55
+            </p>
+          </div>
+        </a>
+        <a
+          href="/product/3"
+          onClick={[Function]}
+        >
+          <div
+            className="group"
+          >
+            <div
+              className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8"
+            >
+              <img
+                alt="Mrs. Elfrieda Monahan"
+                className="h-full w-full object-cover object-center group-hover:opacity-75"
+                src="https://cdn.lorem.space/images/game/.cache/300x300/horizon-forbidden.jpg"
+              />
+            </div>
+            <h3
+              className="mt-4 text-sm text-gray-700"
+            >
+              Mrs. Elfrieda Monahan
+            </h3>
+            <p
+              className="mt-1 text-lg font-medium text-gray-900"
+            >
+              $
+              93.06
+            </p>
+          </div>
+        </a>
+        <a
+          href="/product/4"
+          onClick={[Function]}
+        >
+          <div
+            className="group"
+          >
+            <div
+              className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8"
+            >
+              <img
+                alt="Miss Phoebe Boyle"
+                className="h-full w-full object-cover object-center group-hover:opacity-75"
+                src="https://cdn.lorem.space/images/furniture/.cache/300x300/naomi-hebert-2dcYhvbHV-M-unsplash.jpg"
+              />
+            </div>
+            <h3
+              className="mt-4 text-sm text-gray-700"
+            >
+              Miss Phoebe Boyle
+            </h3>
+            <p
+              className="mt-1 text-lg font-medium text-gray-900"
+            >
+              $
+              77.89
+            </p>
+          </div>
+        </a>
+        <a
+          href="/product/5"
+          onClick={[Function]}
+        >
+          <div
+            className="group"
+          >
+            <div
+              className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8"
+            >
+              <img
+                alt="Gladys Monahan"
+                className="h-full w-full object-cover object-center group-hover:opacity-75"
+                src="https://cdn.lorem.space/images/hotel/.cache/300x300/pexels-max-vakhtbovych-6970069.jpg"
+              />
+            </div>
+            <h3
+              className="mt-4 text-sm text-gray-700"
+            >
+              Gladys Monahan
+            </h3>
+            <p
+              className="mt-1 text-lg font-medium text-gray-900"
+            >
+              $
+              82.90
+            </p>
+          </div>
+        </a>
+        <a
+          href="/product/6"
+          onClick={[Function]}
+        >
+          <div
+            className="group"
+          >
+            <div
+              className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8"
+            >
+              <img
+                alt="Mr. Riley Steuber DDS"
+                className="h-full w-full object-cover object-center group-hover:opacity-75"
+                src="https://cdn.lorem.space/images/fashion/.cache/300x300/ivana-cajina-_7LbC5J-jw4-unsplash.jpg"
+              />
+            </div>
+            <h3
+              className="mt-4 text-sm text-gray-700"
+            >
+              Mr. Riley Steuber DDS
+            </h3>
+            <p
+              className="mt-1 text-lg font-medium text-gray-900"
+            >
+              $
+              72.34
+            </p>
+          </div>
+        </a>
+        <a
+          href="/product/7"
+          onClick={[Function]}
+        >
+          <div
+            className="group"
+          >
+            <div
+              className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8"
+            >
+              <img
+                alt="Justina Senger I"
+                className="h-full w-full object-cover object-center group-hover:opacity-75"
+                src="https://cdn.lorem.space/images/fashion/.cache/300x300/leon-ell-C8Q_zR8PDlA-unsplash.jpg"
+              />
+            </div>
+            <h3
+              className="mt-4 text-sm text-gray-700"
+            >
+              Justina Senger I
+            </h3>
+            <p
+              className="mt-1 text-lg font-medium text-gray-900"
+            >
+              $
+              75.46
+            </p>
+          </div>
+        </a>
+        <a
+          href="/product/8"
+          onClick={[Function]}
+        >
+          <div
+            className="group"
+          >
+            <div
+              className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8"
+            >
+              <img
+                alt="Ashleigh Kirlin"
+                className="h-full w-full object-cover object-center group-hover:opacity-75"
+                src="https://cdn.lorem.space/images/shoes/.cache/300x300/alex-motoc-xyjB6_ZDaKw-unsplash.jpg"
+              />
+            </div>
+            <h3
+              className="mt-4 text-sm text-gray-700"
+            >
+              Ashleigh Kirlin
+            </h3>
+            <p
+              className="mt-1 text-lg font-medium text-gray-900"
+            >
+              $
+              95.58
+            </p>
+          </div>
+        </a>
+        <a
+          href="/product/9"
+          onClick={[Function]}
+        >
+          <div
+            className="group"
+          >
+            <div
+              className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8"
+            >
+              <img
+                alt="Carissa Bernhard"
+                className="h-full w-full object-cover object-center group-hover:opacity-75"
+                src="https://cdn.lorem.space/images/face/.cache/300x300/michael-dam-mEZ3PoFGs_k-unsplash.jpg"
+              />
+            </div>
+            <h3
+              className="mt-4 text-sm text-gray-700"
+            >
+              Carissa Bernhard
+            </h3>
+            <p
+              className="mt-1 text-lg font-medium text-gray-900"
+            >
+              $
+              47.45
+            </p>
+          </div>
+        </a>
+        <a
+          href="/product/10"
+          onClick={[Function]}
+        >
+          <div
+            className="group"
+          >
+            <div
+              className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8"
+            >
+              <img
+                alt="Hudson Reichert V"
+                className="h-full w-full object-cover object-center group-hover:opacity-75"
+                src="https://cdn.lorem.space/images/hotel/.cache/300x300/pexels-max-vakhtbovych-7061675.jpg"
+              />
+            </div>
+            <h3
+              className="mt-4 text-sm text-gray-700"
+            >
+              Hudson Reichert V
+            </h3>
+            <p
+              className="mt-1 text-lg font-medium text-gray-900"
+            >
+              $
+              97.82
+            </p>
+          </div>
+        </a>
+        <a
+          href="/product/11"
+          onClick={[Function]}
+        >
+          <div
+            className="group"
+          >
+            <div
+              className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8"
+            >
+              <img
+                alt="Jon Kuhic"
+                className="h-full w-full object-cover object-center group-hover:opacity-75"
+                src="https://cdn.lorem.space/images/movie/.cache/300x300/cry-macho-2021.jpeg"
+              />
+            </div>
+            <h3
+              className="mt-4 text-sm text-gray-700"
+            >
+              Jon Kuhic
+            </h3>
+            <p
+              className="mt-1 text-lg font-medium text-gray-900"
+            >
+              $
+              23.81
+            </p>
+          </div>
+        </a>
+        <a
+          href="/product/12"
+          onClick={[Function]}
+        >
+          <div
+            className="group"
+          >
+            <div
+              className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8"
+            >
+              <img
+                alt="Jamel Morar"
+                className="h-full w-full object-cover object-center group-hover:opacity-75"
+                src="https://cdn.lorem.space/images/pizza/.cache/300x300/shourav-sheikh-a66sGfOnnqQ-unsplash.jpg"
+              />
+            </div>
+            <h3
+              className="mt-4 text-sm text-gray-700"
+            >
+              Jamel Morar
+            </h3>
+            <p
+              className="mt-1 text-lg font-medium text-gray-900"
+            >
+              $
+              64.14
+            </p>
+          </div>
+        </a>
+      </div>
+      <div
+        className="mt-6 -mb-1 flex flex-wrap"
+      >
+        <div
+          className="mr-1 mb-1 px-4 py-3 text-sm border rounded text-gray-400"
+        >
+          Previous
+        </div>
+        <a
+          className="mr-1 mb-1 px-4 py-3 text-sm border rounded bg-white hover:bg-gray-100 focus:border-indigo-500 focus:text-indigo-500 focus:bg-purple-200"
+          href="http://localhost/?page=1"
+          onClick={[Function]}
+        >
+          1
+        </a>
+        <a
+          className="mr-1 mb-1 px-4 py-3 text-sm border rounded bg-white hover:bg-gray-100 focus:border-indigo-500 focus:text-indigo-500 focus:bg-purple-200"
+          href="http://localhost/?page=2"
+          onClick={[Function]}
+        >
+          2
+        </a>
+        <a
+          className="mr-1 mb-1 px-4 py-3 text-sm border rounded bg-white hover:bg-gray-100 focus:border-indigo-500 focus:text-indigo-500 focus:bg-purple-200"
+          href="http://localhost/?page=3"
+          onClick={[Function]}
+        >
+          3
+        </a>
+        <a
+          className="mr-1 mb-1 px-4 py-3 text-sm border rounded bg-white hover:bg-gray-100 focus:border-indigo-500 focus:text-indigo-500 focus:bg-purple-200"
+          href="http://localhost/?page=4"
+          onClick={[Function]}
+        >
+          4
+        </a>
+        <a
+          className="mr-1 mb-1 px-4 py-3 text-sm border rounded bg-white hover:bg-gray-100 focus:border-indigo-500 focus:text-indigo-500 focus:bg-purple-200"
+          href="http://localhost/?page=5"
+          onClick={[Function]}
+        >
+          5
+        </a>
+        <a
+          className="mr-1 mb-1 px-4 py-3 text-sm border rounded bg-white hover:bg-gray-100 focus:border-indigo-500 focus:text-indigo-500 focus:bg-purple-200"
+          href="http://localhost/?page=6"
+          onClick={[Function]}
+        >
+          6
+        </a>
+        <a
+          className="mr-1 mb-1 px-4 py-3 text-sm border rounded bg-white hover:bg-gray-100 focus:border-indigo-500 focus:text-indigo-500 focus:bg-purple-200"
+          href="http://localhost/?page=7"
+          onClick={[Function]}
+        >
+          7
+        </a>
+        <a
+          className="mr-1 mb-1 px-4 py-3 text-sm border rounded bg-white hover:bg-gray-100 focus:border-indigo-500 focus:text-indigo-500 focus:bg-purple-200"
+          href="http://localhost/?page=8"
+          onClick={[Function]}
+        >
+          8
+        </a>
+        <a
+          className="mr-1 mb-1 px-4 py-3 text-sm border rounded bg-white hover:bg-gray-100 focus:border-indigo-500 focus:text-indigo-500 focus:bg-purple-200"
+          href="http://localhost/?page=9"
+          onClick={[Function]}
+        >
+          9
+        </a>
+        <a
+          className="mr-1 mb-1 px-4 py-3 text-sm border rounded bg-white hover:bg-gray-100 focus:border-indigo-500 focus:text-indigo-500 focus:bg-purple-200"
+          href="http://localhost/?page=10"
+          onClick={[Function]}
+        >
+          10
+        </a>
+        <div
+          className="mr-1 mb-1 px-4 py-3 text-sm border rounded text-gray-400"
+        >
+          ...
+        </div>
+        <a
+          className="mr-1 mb-1 px-4 py-3 text-sm border rounded bg-white hover:bg-gray-100 focus:border-indigo-500 focus:text-indigo-500 focus:bg-purple-200"
+          href="http://localhost/?page=16"
+          onClick={[Function]}
+        >
+          16
+        </a>
+        <a
+          className="mr-1 mb-1 px-4 py-3 text-sm border rounded bg-white hover:bg-gray-100 focus:border-indigo-500 focus:text-indigo-500 focus:bg-purple-200"
+          href="http://localhost/?page=17"
+          onClick={[Function]}
+        >
+          17
+        </a>
+        <a
+          className="mr-1 mb-1 px-4 py-3 text-sm border rounded bg-white hover:bg-gray-100 focus:border-indigo-500 focus:text-indigo-500 focus:bg-purple-200"
+          href="http://localhost/?page=2"
+          onClick={[Function]}
+        >
+          Next
+        </a>
       </div>
     </div>
   </div>
