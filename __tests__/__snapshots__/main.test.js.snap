@@ -210,14 +210,9 @@ exports[`renders the cart correctly 1`] = `
             >
               <select
                 className="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-20 p-2.5"
-                defaultValue={
-                  {
-                    "label": 2,
-                    "value": 2,
-                  }
-                }
                 onChange={[Function]}
                 placeholder="Quantity"
+                value={2}
               >
                 <option
                   value={1}
@@ -333,14 +328,9 @@ exports[`renders the cart correctly 1`] = `
             >
               <select
                 className="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-20 p-2.5"
-                defaultValue={
-                  {
-                    "label": 1,
-                    "value": 1,
-                  }
-                }
                 onChange={[Function]}
                 placeholder="Quantity"
+                value={1}
               >
                 <option
                   value={1}
@@ -731,14 +721,9 @@ exports[`renders the product details correctly 1`] = `
               <div>
                 <select
                   className="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                  defaultValue={
-                    {
-                      "label": 1,
-                      "value": 1,
-                    }
-                  }
                   onChange={[Function]}
                   placeholder="Quantity"
+                  value={1}
                 >
                   <option
                     value={1}
