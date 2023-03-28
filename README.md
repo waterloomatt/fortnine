@@ -5,7 +5,7 @@
 
 The online application is accessible at http://fortnine.mattskelton.ca/
 
-To bring the application up locally, open your terminal and enter the following commands. You must have Docker installed to continue,
+To bring the application up locally, open your terminal and enter the following commands. You must have Docker and Git installed to continue,
 
 ```
 # clone the repository,
@@ -14,7 +14,7 @@ git clone git@github.com:waterloomatt/fortnine.git && cd fortnine`
 # start a container and install the PHP dependencies,
 docker run --rm --interactive --tty -v $(pwd):/app composer install
 
-# start Laravel Sail,
+# start Laravel Sail. If you get errors on this step see the ** note below,
 ./vendor/bin/sail up -d
 
 # copy and rename the environment file,
@@ -31,4 +31,4 @@ cp .env.example .env
 
 If everything goes successfully, you should be able to hit http://localhost/ and access the application. 
 
-If you run into issues when trying to bring up Laraval Sail, you may have existing containers running that are blocking the ports needed for the application. In that case, you can stop all existing containers with `docker kill $(ps -q)` and try to bring Laravel Sail up again. 
+** If you run into issues when trying to bring up Laravel Sail, you may have existing containers running that are blocking the ports needed for the application. In that case, you can stop all existing containers with `docker kill $(ps -q)` and try to bring Laravel Sail up again.
