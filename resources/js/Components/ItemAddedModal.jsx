@@ -42,14 +42,14 @@ export default function AddToCartForm({ product, isOpen, closeHandler }) {
                                         your cart.
                                     </p>
                                     <Link
-                                        href={route("cart")}
+                                        href={"/cart"}
                                         className="font-medium text-indigo-600 hover:text-indigo-500"
                                     >
                                         Visit your cart
                                     </Link>{" "}
                                     or,{" "}
                                     <Link
-                                        href={route("shop")}
+                                        href={"/"}
                                         className="font-medium text-indigo-600 hover:text-indigo-500"
                                     >
                                         continue shopping{" "}

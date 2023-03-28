@@ -13,7 +13,7 @@ export default function Error({}) {
 
                     <p className="mt-6">
                         <Link
-                            href={route("shop")}
+                            href={"/"}
                             className="font-medium text-indigo-600 hover:text-indigo-500"
                         >
                             Continue shopping <span aria-hidden="true"> →</span>
@@ -29,7 +29,7 @@ export default function Error({}) {
 
                 <p className="mt-6">
                     <Link
-                        href={route("shop")}
+                        href={"/"}
                         className="font-medium text-indigo-600 hover:text-indigo-500"
                     >
                         Continue shopping <span aria-hidden="true"> →</span>

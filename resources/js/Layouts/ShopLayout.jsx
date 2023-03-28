@@ -18,7 +18,7 @@ export default function ShopLayout({ children }) {
                 <div className="min-h-screen mt-16">
                     <div className="px-8 py-2 flow-root bg-gray-100 fixed z-50 top-0 left-0 right-0">
                         <div className="flow-left">
-                            <Link href={route("shop")}>
+                            <Link href={"/"}>
                                 <ApplicationLogo className="w-10 h-10 float-left" />
                             </Link>
                         </div>
@@ -47,7 +47,7 @@ export default function ShopLayout({ children }) {
             <div className="min-h-screen sm:w-full lg:flex flex-col items-center pt-6 bg-gray-100">
                 {/* large */}
                 <div className="invisible lg:visible">
-                    <Link href={route("shop")}>
+                    <Link href={"/"}>
                         <ApplicationLogo className="w-10 h-10 sm:w-20 sm:h-20" />
                     </Link>
                 </div>
@@ -55,7 +55,7 @@ export default function ShopLayout({ children }) {
                 {/* medium */}
                 <div className="invisible sm:visible lg:invisible mx-0 px-6 py-6 flow-root mx-6 bg-gray-100 fixed z-50 top-0 left-0 right-0">
                     <div className="flow-left">
-                        <Link href={route("shop")}>
+                        <Link href={"/"}>
                             <ApplicationLogo className="w-10 h-10 float-left" />
                         </Link>
                     </div>
@@ -68,7 +68,7 @@ export default function ShopLayout({ children }) {
                 {/* small */}
                 <div className="visible sm:invisible mx-0 px-6 py-6 flow-root mx-6 bg-gray-100 fixed z-50 top-0 left-0 right-0">
                     <div className="flow-left">
-                        <Link href={route("shop")}>
+                        <Link href={"/"}>
                             <ApplicationLogo className="w-10 h-10 float-left" />
                         </Link>
                     </div>

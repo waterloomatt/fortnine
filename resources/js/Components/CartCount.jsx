@@ -5,7 +5,7 @@ export default function CartCount({}) {
 
     return (
         <div>
-            <Link href={route("cart")} className="group flex items-center">
+            <Link href={"/cart"} className="group flex items-center">
                 <svg
                     className="h-6 w-6 flex-shrink-0 text-gray-400 group-hover:text-gray-500"
                     fill="none"

@@ -1,0 +1,816 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the cart correctly 1`] = `
+<div
+  className="min-h-screen sm:w-full lg:flex flex-col items-center pt-6 bg-gray-100"
+>
+  <div
+    className="invisible lg:visible"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <svg
+        className="w-10 h-10 sm:w-20 sm:h-20"
+        viewBox="0 0 368.000000 512.000000"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="#000000"
+          stroke="none"
+          transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+        >
+          <path
+            d="M228 5097 c-98 -37 -158 -91 -198 -179 -19 -42 -20 -83 -20 -1644 0 -1748 -4 -1624 58 -1709 29 -41 1755 -1550 1771 -1550 8 0 767 657 1485 1285 241 211 284 253 313 305 l33 60 0 1607 0 1606 -33 63 c-38 75 -103 129 -184 154 -72 23 -180 16 -244 -14 -28 -13 -301 -245 -702 -596 -361 -316 -661 -575 -666 -575 -5 0 -305 259 -666 575 -390 341 -676 584 -704 597 -56 28 -186 36 -243 15z m795 -938 l634 -557 6 -233 c10 -325 9 -569 -2 -569 -6 0 -460 393 -793 688 -17 14 -18 6 -18 -154 l0 -170 243 -212 244 -211 7 -322 c3 -177 4 -324 2 -326 -3 -3 -113 90 -245 206 l-241 212 0 -591 c0 -324 -2 -590 -5 -590 -3 0 -16 9 -28 21 -12 11 -121 108 -243 216 l-221 195 -6 436 c-9 579 -9 2507 0 2516 4 4 13 5 19 4 7 -2 298 -253 647 -559z m2307 -925 l0 -1463 -717 -627 c-395 -345 -730 -638 -745 -651 l-26 -25 -326 284 -325 283 -1 409 c0 389 1 408 18 394 9 -8 154 -135 321 -283 272 -240 306 -267 323 -256 10 6 240 206 510 443 l490 431 -3 168 c-2 93 -5 169 -7 169 -2 0 -22 -17 -45 -39 -23 -21 -208 -186 -412 -366 l-370 -328 -6 524 c-3 288 -7 696 -8 906 l-1 381 328 285 c180 156 473 411 651 565 254 221 327 279 338 271 11 -10 13 -265 13 -1475z"
+          />
+          <path
+            d="M2770 3433 c-36 -31 -145 -128 -243 -216 l-178 -160 2 -163 2 -164 38 33 c21 17 130 113 243 212 l205 180 0 168 c1 92 0 167 -2 167 -1 0 -31 -25 -67 -57z"
+          />
+        </g>
+      </svg>
+    </a>
+  </div>
+  <div
+    className="invisible sm:visible lg:invisible mx-0 px-6 py-6 flow-root mx-6 bg-gray-100 fixed z-50 top-0 left-0 right-0"
+  >
+    <div
+      className="flow-left"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <svg
+          className="w-10 h-10 float-left"
+          viewBox="0 0 368.000000 512.000000"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="#000000"
+            stroke="none"
+            transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+          >
+            <path
+              d="M228 5097 c-98 -37 -158 -91 -198 -179 -19 -42 -20 -83 -20 -1644 0 -1748 -4 -1624 58 -1709 29 -41 1755 -1550 1771 -1550 8 0 767 657 1485 1285 241 211 284 253 313 305 l33 60 0 1607 0 1606 -33 63 c-38 75 -103 129 -184 154 -72 23 -180 16 -244 -14 -28 -13 -301 -245 -702 -596 -361 -316 -661 -575 -666 -575 -5 0 -305 259 -666 575 -390 341 -676 584 -704 597 -56 28 -186 36 -243 15z m795 -938 l634 -557 6 -233 c10 -325 9 -569 -2 -569 -6 0 -460 393 -793 688 -17 14 -18 6 -18 -154 l0 -170 243 -212 244 -211 7 -322 c3 -177 4 -324 2 -326 -3 -3 -113 90 -245 206 l-241 212 0 -591 c0 -324 -2 -590 -5 -590 -3 0 -16 9 -28 21 -12 11 -121 108 -243 216 l-221 195 -6 436 c-9 579 -9 2507 0 2516 4 4 13 5 19 4 7 -2 298 -253 647 -559z m2307 -925 l0 -1463 -717 -627 c-395 -345 -730 -638 -745 -651 l-26 -25 -326 284 -325 283 -1 409 c0 389 1 408 18 394 9 -8 154 -135 321 -283 272 -240 306 -267 323 -256 10 6 240 206 510 443 l490 431 -3 168 c-2 93 -5 169 -7 169 -2 0 -22 -17 -45 -39 -23 -21 -208 -186 -412 -366 l-370 -328 -6 524 c-3 288 -7 696 -8 906 l-1 381 328 285 c180 156 473 411 651 565 254 221 327 279 338 271 11 -10 13 -265 13 -1475z"
+            />
+            <path
+              d="M2770 3433 c-36 -31 -145 -128 -243 -216 l-178 -160 2 -163 2 -164 38 33 c21 17 130 113 243 212 l205 180 0 168 c1 92 0 167 -2 167 -1 0 -31 -25 -67 -57z"
+            />
+          </g>
+        </svg>
+      </a>
+    </div>
+    <div
+      className="float-right py-2"
+    >
+      <div>
+        <a
+          className="group flex items-center"
+          href="/cart"
+          onClick={[Function]}
+        >
+          <svg
+            aria-hidden="true"
+            className="h-6 w-6 flex-shrink-0 text-gray-400 group-hover:text-gray-500"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+          <span
+            className="ml-2 text-sm font-medium text-gray-700 group-hover:text-gray-800"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="visible sm:invisible mx-0 px-6 py-6 flow-root mx-6 bg-gray-100 fixed z-50 top-0 left-0 right-0"
+  >
+    <div
+      className="flow-left"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <svg
+          className="w-10 h-10 float-left"
+          viewBox="0 0 368.000000 512.000000"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="#000000"
+            stroke="none"
+            transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+          >
+            <path
+              d="M228 5097 c-98 -37 -158 -91 -198 -179 -19 -42 -20 -83 -20 -1644 0 -1748 -4 -1624 58 -1709 29 -41 1755 -1550 1771 -1550 8 0 767 657 1485 1285 241 211 284 253 313 305 l33 60 0 1607 0 1606 -33 63 c-38 75 -103 129 -184 154 -72 23 -180 16 -244 -14 -28 -13 -301 -245 -702 -596 -361 -316 -661 -575 -666 -575 -5 0 -305 259 -666 575 -390 341 -676 584 -704 597 -56 28 -186 36 -243 15z m795 -938 l634 -557 6 -233 c10 -325 9 -569 -2 -569 -6 0 -460 393 -793 688 -17 14 -18 6 -18 -154 l0 -170 243 -212 244 -211 7 -322 c3 -177 4 -324 2 -326 -3 -3 -113 90 -245 206 l-241 212 0 -591 c0 -324 -2 -590 -5 -590 -3 0 -16 9 -28 21 -12 11 -121 108 -243 216 l-221 195 -6 436 c-9 579 -9 2507 0 2516 4 4 13 5 19 4 7 -2 298 -253 647 -559z m2307 -925 l0 -1463 -717 -627 c-395 -345 -730 -638 -745 -651 l-26 -25 -326 284 -325 283 -1 409 c0 389 1 408 18 394 9 -8 154 -135 321 -283 272 -240 306 -267 323 -256 10 6 240 206 510 443 l490 431 -3 168 c-2 93 -5 169 -7 169 -2 0 -22 -17 -45 -39 -23 -21 -208 -186 -412 -366 l-370 -328 -6 524 c-3 288 -7 696 -8 906 l-1 381 328 285 c180 156 473 411 651 565 254 221 327 279 338 271 11 -10 13 -265 13 -1475z"
+            />
+            <path
+              d="M2770 3433 c-36 -31 -145 -128 -243 -216 l-178 -160 2 -163 2 -164 38 33 c21 17 130 113 243 212 l205 180 0 168 c1 92 0 167 -2 167 -1 0 -31 -25 -67 -57z"
+            />
+          </g>
+        </svg>
+      </a>
+    </div>
+    <div
+      className="float-right py-2"
+    >
+      <div>
+        <a
+          className="group flex items-center"
+          href="/cart"
+          onClick={[Function]}
+        >
+          <svg
+            aria-hidden="true"
+            className="h-6 w-6 flex-shrink-0 text-gray-400 group-hover:text-gray-500"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+          <span
+            className="ml-2 text-sm font-medium text-gray-700 group-hover:text-gray-800"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sm:mx-6 px-6 mt-6 py-6 bg-white md:shadow-md overflow-hidden sm:rounded-lg mb-4 overflow-visible"
+  >
+    <div
+      className="py-6"
+    >
+      <h2>
+        Shopping Cart
+      </h2>
+      <div>
+        <div
+          className="flex py-6 border-b mb-6"
+        >
+          <div
+            className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200"
+          >
+            <a
+              href="product/1"
+              onClick={[Function]}
+            >
+              <img
+                alt="Salmon orange fabric pouch with match zipper, gray zipper pull, and adjustable hip belt."
+                className="h-full w-full object-cover object-center"
+                src="https://cdn.lorem.space/images/face/.cache/300x300/behrouz-sasani-khMxnuosSV4-unsplash.jpg"
+              />
+            </a>
+          </div>
+          <div
+            className="ml-4 flex flex-1 flex-col"
+          >
+            <div>
+              <div
+                className="flex justify-between text-base font-medium text-gray-900"
+              >
+                <h3>
+                  <a
+                    href="product/1"
+                    onClick={[Function]}
+                  >
+                    Barton Greenfelder
+                  </a>
+                </h3>
+                <p
+                  className="ml-4"
+                >
+                  $77.07
+                </p>
+              </div>
+              <p
+                className="mt-1 text-sm text-gray-500"
+              >
+                Salmon
+              </p>
+            </div>
+            <div
+              className="flex flex-1 items-end justify-between text-sm"
+            >
+              <select
+                className="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-20 p-2.5"
+                defaultValue={
+                  {
+                    "label": 2,
+                    "value": 2,
+                  }
+                }
+                onChange={[Function]}
+                placeholder="Quantity"
+              >
+                <option
+                  value={1}
+                >
+                  1
+                </option>
+                <option
+                  value={2}
+                >
+                  2
+                </option>
+                <option
+                  value={3}
+                >
+                  3
+                </option>
+                <option
+                  value={4}
+                >
+                  4
+                </option>
+                <option
+                  value={5}
+                >
+                  5
+                </option>
+                <option
+                  value={6}
+                >
+                  6
+                </option>
+                <option
+                  value={7}
+                >
+                  7
+                </option>
+                <option
+                  value={8}
+                >
+                  8
+                </option>
+                <option
+                  value={9}
+                >
+                  9
+                </option>
+                <option
+                  value={10}
+                >
+                  10
+                </option>
+              </select>
+              <div
+                className="flex"
+              >
+                <button
+                  className="font-medium text-indigo-600 hover:text-indigo-500"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Remove
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="flex py-6 border-b mb-6"
+        >
+          <div
+            className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200"
+          >
+            <a
+              href="product/4"
+              onClick={[Function]}
+            >
+              <img
+                alt="Salmon orange fabric pouch with match zipper, gray zipper pull, and adjustable hip belt."
+                className="h-full w-full object-cover object-center"
+                src="https://cdn.lorem.space/images/face/.cache/300x300/jassir-jonis-QWa0TIUW638-unsplash.jpg"
+              />
+            </a>
+          </div>
+          <div
+            className="ml-4 flex flex-1 flex-col"
+          >
+            <div>
+              <div
+                className="flex justify-between text-base font-medium text-gray-900"
+              >
+                <h3>
+                  <a
+                    href="product/4"
+                    onClick={[Function]}
+                  >
+                    Constantin Graham
+                  </a>
+                </h3>
+                <p
+                  className="ml-4"
+                >
+                  $34.75
+                </p>
+              </div>
+              <p
+                className="mt-1 text-sm text-gray-500"
+              >
+                Salmon
+              </p>
+            </div>
+            <div
+              className="flex flex-1 items-end justify-between text-sm"
+            >
+              <select
+                className="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-20 p-2.5"
+                defaultValue={
+                  {
+                    "label": 1,
+                    "value": 1,
+                  }
+                }
+                onChange={[Function]}
+                placeholder="Quantity"
+              >
+                <option
+                  value={1}
+                >
+                  1
+                </option>
+                <option
+                  value={2}
+                >
+                  2
+                </option>
+                <option
+                  value={3}
+                >
+                  3
+                </option>
+                <option
+                  value={4}
+                >
+                  4
+                </option>
+                <option
+                  value={5}
+                >
+                  5
+                </option>
+                <option
+                  value={6}
+                >
+                  6
+                </option>
+                <option
+                  value={7}
+                >
+                  7
+                </option>
+                <option
+                  value={8}
+                >
+                  8
+                </option>
+                <option
+                  value={9}
+                >
+                  9
+                </option>
+                <option
+                  value={10}
+                >
+                  10
+                </option>
+              </select>
+              <div
+                className="flex"
+              >
+                <button
+                  className="font-medium text-indigo-600 hover:text-indigo-500"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Remove
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="px-4 sm:px-6"
+      >
+        <div
+          className="flex justify-between text-base text-sm text-gray-500"
+        >
+          <p>
+            Subtotal
+          </p>
+          <p>
+            $188.89
+          </p>
+        </div>
+        <div
+          className="flex justify-between text-base text-sm text-gray-500"
+        >
+          <p>
+            QST
+          </p>
+          <p>
+            $18.84
+          </p>
+        </div>
+        <div
+          className="flex justify-between text-base text-sm text-gray-500"
+        >
+          <p>
+            GST
+          </p>
+          <p>
+            $9.44
+          </p>
+        </div>
+        <div
+          className="flex justify-between text-base font-medium text-gray-900"
+        >
+          <p>
+            Total
+          </p>
+          <p>
+            $217.18
+          </p>
+        </div>
+        <div
+          className="mt-6"
+        >
+          <a
+            className="flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
+            href="#"
+            onClick={[Function]}
+          >
+            Checkout
+          </a>
+        </div>
+        <div
+          className="mt-6 flex justify-center text-center text-sm text-gray-500"
+        >
+          <p>
+            or
+             
+            <a
+              className="font-medium text-indigo-600 hover:text-indigo-500"
+              href="/"
+              onClick={[Function]}
+            >
+              Back to shop 
+              <span
+                aria-hidden="true"
+              >
+                 →
+              </span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders the product details correctly 1`] = `
+<div
+  className="min-h-screen sm:w-full lg:flex flex-col items-center pt-6 bg-gray-100"
+>
+  <div
+    className="invisible lg:visible"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <svg
+        className="w-10 h-10 sm:w-20 sm:h-20"
+        viewBox="0 0 368.000000 512.000000"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="#000000"
+          stroke="none"
+          transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+        >
+          <path
+            d="M228 5097 c-98 -37 -158 -91 -198 -179 -19 -42 -20 -83 -20 -1644 0 -1748 -4 -1624 58 -1709 29 -41 1755 -1550 1771 -1550 8 0 767 657 1485 1285 241 211 284 253 313 305 l33 60 0 1607 0 1606 -33 63 c-38 75 -103 129 -184 154 -72 23 -180 16 -244 -14 -28 -13 -301 -245 -702 -596 -361 -316 -661 -575 -666 -575 -5 0 -305 259 -666 575 -390 341 -676 584 -704 597 -56 28 -186 36 -243 15z m795 -938 l634 -557 6 -233 c10 -325 9 -569 -2 -569 -6 0 -460 393 -793 688 -17 14 -18 6 -18 -154 l0 -170 243 -212 244 -211 7 -322 c3 -177 4 -324 2 -326 -3 -3 -113 90 -245 206 l-241 212 0 -591 c0 -324 -2 -590 -5 -590 -3 0 -16 9 -28 21 -12 11 -121 108 -243 216 l-221 195 -6 436 c-9 579 -9 2507 0 2516 4 4 13 5 19 4 7 -2 298 -253 647 -559z m2307 -925 l0 -1463 -717 -627 c-395 -345 -730 -638 -745 -651 l-26 -25 -326 284 -325 283 -1 409 c0 389 1 408 18 394 9 -8 154 -135 321 -283 272 -240 306 -267 323 -256 10 6 240 206 510 443 l490 431 -3 168 c-2 93 -5 169 -7 169 -2 0 -22 -17 -45 -39 -23 -21 -208 -186 -412 -366 l-370 -328 -6 524 c-3 288 -7 696 -8 906 l-1 381 328 285 c180 156 473 411 651 565 254 221 327 279 338 271 11 -10 13 -265 13 -1475z"
+          />
+          <path
+            d="M2770 3433 c-36 -31 -145 -128 -243 -216 l-178 -160 2 -163 2 -164 38 33 c21 17 130 113 243 212 l205 180 0 168 c1 92 0 167 -2 167 -1 0 -31 -25 -67 -57z"
+          />
+        </g>
+      </svg>
+    </a>
+  </div>
+  <div
+    className="invisible sm:visible lg:invisible mx-0 px-6 py-6 flow-root mx-6 bg-gray-100 fixed z-50 top-0 left-0 right-0"
+  >
+    <div
+      className="flow-left"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <svg
+          className="w-10 h-10 float-left"
+          viewBox="0 0 368.000000 512.000000"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="#000000"
+            stroke="none"
+            transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+          >
+            <path
+              d="M228 5097 c-98 -37 -158 -91 -198 -179 -19 -42 -20 -83 -20 -1644 0 -1748 -4 -1624 58 -1709 29 -41 1755 -1550 1771 -1550 8 0 767 657 1485 1285 241 211 284 253 313 305 l33 60 0 1607 0 1606 -33 63 c-38 75 -103 129 -184 154 -72 23 -180 16 -244 -14 -28 -13 -301 -245 -702 -596 -361 -316 -661 -575 -666 -575 -5 0 -305 259 -666 575 -390 341 -676 584 -704 597 -56 28 -186 36 -243 15z m795 -938 l634 -557 6 -233 c10 -325 9 -569 -2 -569 -6 0 -460 393 -793 688 -17 14 -18 6 -18 -154 l0 -170 243 -212 244 -211 7 -322 c3 -177 4 -324 2 -326 -3 -3 -113 90 -245 206 l-241 212 0 -591 c0 -324 -2 -590 -5 -590 -3 0 -16 9 -28 21 -12 11 -121 108 -243 216 l-221 195 -6 436 c-9 579 -9 2507 0 2516 4 4 13 5 19 4 7 -2 298 -253 647 -559z m2307 -925 l0 -1463 -717 -627 c-395 -345 -730 -638 -745 -651 l-26 -25 -326 284 -325 283 -1 409 c0 389 1 408 18 394 9 -8 154 -135 321 -283 272 -240 306 -267 323 -256 10 6 240 206 510 443 l490 431 -3 168 c-2 93 -5 169 -7 169 -2 0 -22 -17 -45 -39 -23 -21 -208 -186 -412 -366 l-370 -328 -6 524 c-3 288 -7 696 -8 906 l-1 381 328 285 c180 156 473 411 651 565 254 221 327 279 338 271 11 -10 13 -265 13 -1475z"
+            />
+            <path
+              d="M2770 3433 c-36 -31 -145 -128 -243 -216 l-178 -160 2 -163 2 -164 38 33 c21 17 130 113 243 212 l205 180 0 168 c1 92 0 167 -2 167 -1 0 -31 -25 -67 -57z"
+            />
+          </g>
+        </svg>
+      </a>
+    </div>
+    <div
+      className="float-right py-2"
+    >
+      <div>
+        <a
+          className="group flex items-center"
+          href="/cart"
+          onClick={[Function]}
+        >
+          <svg
+            aria-hidden="true"
+            className="h-6 w-6 flex-shrink-0 text-gray-400 group-hover:text-gray-500"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+          <span
+            className="ml-2 text-sm font-medium text-gray-700 group-hover:text-gray-800"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="visible sm:invisible mx-0 px-6 py-6 flow-root mx-6 bg-gray-100 fixed z-50 top-0 left-0 right-0"
+  >
+    <div
+      className="flow-left"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <svg
+          className="w-10 h-10 float-left"
+          viewBox="0 0 368.000000 512.000000"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="#000000"
+            stroke="none"
+            transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+          >
+            <path
+              d="M228 5097 c-98 -37 -158 -91 -198 -179 -19 -42 -20 -83 -20 -1644 0 -1748 -4 -1624 58 -1709 29 -41 1755 -1550 1771 -1550 8 0 767 657 1485 1285 241 211 284 253 313 305 l33 60 0 1607 0 1606 -33 63 c-38 75 -103 129 -184 154 -72 23 -180 16 -244 -14 -28 -13 -301 -245 -702 -596 -361 -316 -661 -575 -666 -575 -5 0 -305 259 -666 575 -390 341 -676 584 -704 597 -56 28 -186 36 -243 15z m795 -938 l634 -557 6 -233 c10 -325 9 -569 -2 -569 -6 0 -460 393 -793 688 -17 14 -18 6 -18 -154 l0 -170 243 -212 244 -211 7 -322 c3 -177 4 -324 2 -326 -3 -3 -113 90 -245 206 l-241 212 0 -591 c0 -324 -2 -590 -5 -590 -3 0 -16 9 -28 21 -12 11 -121 108 -243 216 l-221 195 -6 436 c-9 579 -9 2507 0 2516 4 4 13 5 19 4 7 -2 298 -253 647 -559z m2307 -925 l0 -1463 -717 -627 c-395 -345 -730 -638 -745 -651 l-26 -25 -326 284 -325 283 -1 409 c0 389 1 408 18 394 9 -8 154 -135 321 -283 272 -240 306 -267 323 -256 10 6 240 206 510 443 l490 431 -3 168 c-2 93 -5 169 -7 169 -2 0 -22 -17 -45 -39 -23 -21 -208 -186 -412 -366 l-370 -328 -6 524 c-3 288 -7 696 -8 906 l-1 381 328 285 c180 156 473 411 651 565 254 221 327 279 338 271 11 -10 13 -265 13 -1475z"
+            />
+            <path
+              d="M2770 3433 c-36 -31 -145 -128 -243 -216 l-178 -160 2 -163 2 -164 38 33 c21 17 130 113 243 212 l205 180 0 168 c1 92 0 167 -2 167 -1 0 -31 -25 -67 -57z"
+            />
+          </g>
+        </svg>
+      </a>
+    </div>
+    <div
+      className="float-right py-2"
+    >
+      <div>
+        <a
+          className="group flex items-center"
+          href="/cart"
+          onClick={[Function]}
+        >
+          <svg
+            aria-hidden="true"
+            className="h-6 w-6 flex-shrink-0 text-gray-400 group-hover:text-gray-500"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+          <span
+            className="ml-2 text-sm font-medium text-gray-700 group-hover:text-gray-800"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sm:mx-6 px-6 mt-6 py-6 bg-white md:shadow-md overflow-hidden sm:rounded-lg mb-4 overflow-visible"
+  >
+    <span
+      className="invisible lg:visible lg:flow-root"
+    >
+      <span
+        className="float-right"
+      >
+        <div>
+          <a
+            className="group flex items-center"
+            href="/cart"
+            onClick={[Function]}
+          >
+            <svg
+              aria-hidden="true"
+              className="h-6 w-6 flex-shrink-0 text-gray-400 group-hover:text-gray-500"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+            <span
+              className="ml-2 text-sm font-medium text-gray-700 group-hover:text-gray-800"
+            />
+          </a>
+        </div>
+      </span>
+    </span>
+    <div
+      className="mt-12 flex w-full transform text-left text-base transition md:my-8 md:max-w-2xl md:pr-4 lg:max-w-4xl"
+    >
+      <div
+        className="grid w-full grid-cols-1 items-start gap-y-8 gap-x-6 sm:grid-cols-12 lg:gap-x-8"
+      >
+        <div
+          className="aspect-w-2 aspect-h-3 overflow-hidden rounded-lg bg-gray-100 sm:col-span-4 lg:col-span-5"
+        >
+          <img
+            alt="Robert Kihn"
+            className="object-cover object-center"
+            src="https://cdn.lorem.space/images/album/.cache/300x300/mdna_madonna.jpg"
+          />
+        </div>
+        <div
+          className="sm:col-span-8 lg:col-span-7"
+        >
+          <h2
+            className="text-2xl font-bold text-gray-900 sm:pr-12"
+          >
+            Robert Kihn
+          </h2>
+          <h3
+            className="sr-only"
+            id="information-heading"
+          >
+            Product information
+          </h3>
+          <p
+            className="text-2xl text-gray-900"
+          >
+            $
+            72.50
+          </p>
+          <div
+            className="mt-10"
+          >
+            <div
+              className="flex items-center justify-between"
+            >
+              <h4
+                className="text-sm font-medium text-gray-900"
+              >
+                Description
+              </h4>
+            </div>
+            Dolore sed nihil iusto sit. Eaque illum consequatur cumque autem deleniti. Eum in voluptas animi quis assumenda maxime.
+          </div>
+          <div
+            className="mt-10"
+          >
+            <div>
+              <div>
+                <select
+                  defaultValue={
+                    {
+                      "label": 1,
+                      "value": 1,
+                    }
+                  }
+                  onChange={[Function]}
+                  placeholder="Quantity"
+                >
+                  <option
+                    value={1}
+                  >
+                    1
+                  </option>
+                  <option
+                    value={2}
+                  >
+                    2
+                  </option>
+                  <option
+                    value={3}
+                  >
+                    3
+                  </option>
+                  <option
+                    value={4}
+                  >
+                    4
+                  </option>
+                  <option
+                    value={5}
+                  >
+                    5
+                  </option>
+                  <option
+                    value={6}
+                  >
+                    6
+                  </option>
+                  <option
+                    value={7}
+                  >
+                    7
+                  </option>
+                  <option
+                    value={8}
+                  >
+                    8
+                  </option>
+                </select>
+                <button
+                  className="mt-6 flex w-full items-center justify-center rounded-md border border-transparent bg-blue-600 py-3 px-8 text-base font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                  onClick={[Function]}
+                  type="submit"
+                >
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            className="mt-6 flex justify-center text-center text-sm text-gray-500"
+          >
+            <p>
+              <a
+                className="font-medium text-indigo-600 hover:text-indigo-500"
+                href="/"
+                onClick={[Function]}
+              >
+                Back to shop 
+                <span
+                  aria-hidden="true"
+                >
+                   →
+                </span>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

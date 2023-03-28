@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from "react";
-import Select from "react-select";
+import { map } from "lodash";
 import { router, usePage } from "@inertiajs/react";
 import { range } from "lodash";
 import ItemAddedModal from "@/Components/ItemAddedModal";
@@ -69,16 +69,26 @@ export default function AddToCartForm({ product }) {
                     </div>
                 ) : (
                     <div>
-                        <Select
+                        <select
+                            className="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                             key={`quantity_select__${quantity}`}
                             defaultValue={options.find(
                                 ({ value }) => value === quantity
                             )}
                             onChange={(selected) => setQuantity(selected.value)}
-                            options={options}
-                            isSearchable={false}
                             placeholder={"Quantity"}
-                        />
+                        >
+                            {map(options, (option) => {
+                                return (
+                                    <option
+                                        key={option.value}
+                                        value={option.value}
+                                    >
+                                        {option.label}
+                                    </option>
+                                );
+                            })}
+                        </select>
 
                         <button
                             type={"submit"}

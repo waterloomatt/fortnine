@@ -38,7 +38,7 @@ export default function ProductDetails({ product }) {
                     <div className="mt-6 flex justify-center text-center text-sm text-gray-500">
                         <p>
                             <Link
-                                href={route("shop")}
+                                href={"/"}
                                 className="font-medium text-indigo-600 hover:text-indigo-500"
                             >
                                 Back to shop <span aria-hidden="true"> →</span>

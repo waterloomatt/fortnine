@@ -74,7 +74,7 @@ export default function Cart({}) {
                     <div className="pt-6">
                         Your cart is empty. Go back{" "}
                         {
-                            <Link href={route("shop")} className="underline">
+                            <Link href={"/"} className="underline">
                                 to the shop.
                             </Link>
                         }
@@ -87,7 +87,7 @@ export default function Cart({}) {
             <ShopLayout>
                 Your cart is empty. Go back{" "}
                 {
-                    <Link href={route("shop")} className="underline">
+                    <Link href={"/"} className="underline">
                         to the shop.
                     </Link>
                 }
@@ -145,7 +145,7 @@ export default function Cart({}) {
                         <p>
                             or{" "}
                             <Link
-                                href={route("shop")}
+                                href={"/"}
                                 className="font-medium text-indigo-600 hover:text-indigo-500"
                             >
                                 Back to shop <span aria-hidden="true"> →</span>
