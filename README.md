@@ -24,7 +24,7 @@ To bring the application up locally, open your terminal and enter the following 
 
 ```
 # clone the repository,
-git clone git@github.com:waterloomatt/fortnine.git && cd fortnine`
+git clone git@github.com:waterloomatt/fortnine.git && cd fortnine
 
 # start a container and install the PHP dependencies,
 docker run --rm --interactive --tty -v $(pwd):/app composer install
