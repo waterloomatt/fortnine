@@ -55,6 +55,8 @@ class CartService
         if (!$cartItem->wasRecentlyCreated) {
             $cartItem->increment('quantity', $quantity);
         }
+
+        event(new CartUpdated($this->cart));
     }
 
     public function update(string $id, int $quantity): void
@@ -63,6 +65,8 @@ class CartService
             ->items()
             ->where('product_id', $id)
             ->update(['quantity' => $quantity]);
+
+        event(new CartUpdated($this->cart));
     }
 
     public function remove(string $id): void
@@ -71,5 +75,7 @@ class CartService
             ->items()
             ->where('product_id', $id)
             ->delete();
+
+        event(new CartUpdated($this->cart));
     }
 }

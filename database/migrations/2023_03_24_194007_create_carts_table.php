@@ -13,7 +13,9 @@ return new class extends Migration {
         Schema::create('carts', function (Blueprint $table) {
             $table->id();
             $table->string('session_id');
-            $table->decimal('total');
+            $table->decimal('sub_total')->default(0);
+            $table->decimal('tax')->default(0);
+            $table->decimal('total')->default(0);
             $table->timestamps();
         });
     }
