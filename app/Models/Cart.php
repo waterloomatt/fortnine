@@ -11,6 +11,12 @@ class Cart extends Model
 
     protected $guarded = [];
 
+    protected $casts = [
+        'sub_total' => 'decimal:2',
+        'tax' => 'decimal:2',
+        'total' => 'decimal:2',
+    ];
+
     public function items()
     {
         return $this->hasMany(CartItem::class);
