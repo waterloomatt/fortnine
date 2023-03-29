@@ -2,6 +2,7 @@
 
 namespace App\Services;
 
+use App\Events\CartUpdated;
 use App\Models\Cart;
 use App\Models\CartItem;
 
@@ -13,8 +14,13 @@ class CartService
 
         $this->cart = Cart::firstOrCreate(
             ['session_id' => $sessionId],
-            ['session_id' => $sessionId, 'total' => 0]
+            ['session_id' => $sessionId]
         );
+    }
+
+    public function getCart()
+    {
+        return $this->cart;
     }
 
     public function getItemCount()
