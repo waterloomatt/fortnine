@@ -25,10 +25,16 @@ To bring the application up locally, open your terminal and enter the following 
 
 ```
 # clone the repository,
-git clone git@github.com:waterloomatt/fortnine.git && cd fortnine
+git clone https://github.com/waterloomatt/fortnine.git && cd fortnine
 
 # start a container and install the PHP dependencies,
-docker run --rm --interactive --tty -v $(pwd):/app composer install
+docker run --rm \
+    -u "$(id -u):$(id -g)" \
+    -v "$(pwd):/var/www/html" \
+    -w /var/www/html \
+    laravelsail/php82-composer:latest \
+   composer install
+
 
 # copy and rename the environment file,
 cp .env.example .env
